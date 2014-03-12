@@ -106,7 +106,11 @@
           function openApp(appNo){
               
              if(appNo=="1"){
+                 //alert("one");
               window.open("http://50.194.79.186:8080/POApprovalApp/POListView.html","_parent");
+             }
+             else if(appNo=="2"){
+              window.open("http://50.194.79.186:8080/TimesheetApp-1.0/Timesheet.html","_parent");
              }
           }
          
@@ -127,7 +131,8 @@
                         <div class="content-container clearfix" style="">
  <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->                          
  <table border="0">
-    <td width="100 px" height = "100 px" id ="PO"><a href="javascript:openApp(1);" class ="btn"></a><p>PO Approvals</p></td>
+    <td width="150 px" height = "150 px" id ="PO"><a href="javascript:openApp(1);" class ="btn"></a><p>PO Approvals</p></td>
+    <td width="150 px" height = "150 px" id ="PO"><a href="javascript:openApp(2);" class ="btnTS"></a><p>Time Sheet</p></td>
  </table>
                             
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
