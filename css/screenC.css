@@ -1001,3 +1001,18 @@ height: 100px;
 cusror: pointer;    
 background-image: url(../images/button2.png);
 }
+a.btnTS {
+display: block;
+width: 100px;
+height: 100px;
+cusror: pointer;
+background-image: url(../images/TS1.png);
+text-indent: -9999em;
+}
+a.btnTS:hover {
+display: block;
+width: 100px;
+height: 100px;
+cusror: pointer;    
+background-image: url(../images/TS2.png);
+}
