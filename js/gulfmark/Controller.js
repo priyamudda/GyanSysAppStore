@@ -588,11 +588,11 @@ function Reset() {
 	//$('#maindivconf').height($(window).height() - (hdrHeight + conHeight));
 	$('.content-container').css("min-height",$(window).height() - (hdrHeight + conHeight)); 
         
-//          if (navigator.userAgent.match("iPad")) {
-//         $('.content-container').css("min-height",968); 
-//         $('.wrapper').css("max-width",1024); 
-//
-//          }
+          if (navigator.userAgent.match("iPad")) {
+         $('.content-container').css("min-height",768); 
+         $('.wrapper').css("max-width",1024); 
+
+          }
 };
 
 function sendemail() {
